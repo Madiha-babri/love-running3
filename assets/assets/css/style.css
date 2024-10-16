@@ -37,10 +37,16 @@ nav {position: absolute;    background-color: #ffffff;  width: 100%;    left: 0;
 
 h1 {font-family:'Oswald', sans-serif;   text-transform: uppercase;  letter-spacing: 2px;    color: 252525;}
 /* Main content */
-main {background-color: lightblue;
+main {
 /* Make main element take any surplus space to push footer down */
 flex: 1 0 auto;
 margin-top: 47px;}
+
+
+/* Hero Section */
+#hero {height: 600px;
+    width: 100%;
+    background-color: lightgreen;}
 
 /* Footer */
 #social-networks { text-align: center;  padding: 20px 0;    display: flex;  justify-content: space-evenly;
